@@ -162,7 +162,7 @@ hchi2.Draw()
 
 # Update and save
 canvas.Update()
-canvas.SaveAs("LSQFit.pdf(") # save this canvas in the first page of the pdf
+canvas.SaveAs("LSQFitpy.pdf(") # save this canvas in the first page of the pdf
 
 
 # Draw each histogram in its own pad
@@ -179,7 +179,7 @@ canvas2.cd(4)
 hchi2_red.Draw()
 
 canvas2.Update()
-canvas2.SaveAs("LSQFit.pdf)") # save this canvas to the next page and close the pdf
+canvas2.SaveAs("LSQFitpy.pdf)") # save this canvas to the next page and close the pdf
 
 # **************************************
 
